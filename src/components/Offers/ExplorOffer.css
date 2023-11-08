@@ -16,9 +16,10 @@
   font-size: 24px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #04407f;
   text-decoration: underline;
   animation: bounce 5s ease infinite;
+  text-decoration: none;
 }
 .description {
   margin-top: 10px;
@@ -32,7 +33,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: blue;
+  background-color: #04407f;
   left: -30px;
   top: 50%;
   transform: translateY(-50%);
@@ -54,7 +55,7 @@
 
 .services-list li:before {
   content: "\2022";
-  color: #007bff;
+  color: #04407f;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -76,7 +77,7 @@
 .offerings {
   display: flex;
   width: 100%;
-  border-image: linear-gradient(45deg, #522c83, #007bff) 1;
+  border-image: linear-gradient(45deg, #41d0e0, #007bff) 1;
   border-image-slice: 1;
   border-radius: 8px;
   overflow: hidden;
@@ -86,7 +87,7 @@
 
 .titles-column {
   flex: 1;
-  background: linear-gradient(45deg, #522c83, #853c70);
+  background: linear-gradient(45deg, #41d0e0, #0c5fb8);
   padding: 20px;
 }
 
@@ -95,9 +96,10 @@
   font-size: 16px;
   padding: 10px;
   text-decoration: underline;
-  border: 1px solid #ccc;
+  border: 1px solid lightgray;
   transition: transform 0.3s, box-shadow 0.3s;
   color: white;
+  text-decoration: none;
 }
 
 .offering-title:hover {
@@ -106,7 +108,7 @@
 }
 
 .offering-title.active {
-  background-color: #007bff;
+  background-color: #04407f;
   color: white;
 }
 
@@ -139,7 +141,7 @@
 .explore-link {
   display: block;
   text-decoration: none;
-  color: #007bff;
+  color: gray;
   font-weight: bold;
   margin-top: 20px;
   transition: color 0.3s;
@@ -191,12 +193,12 @@
   font-size: 16px;
   margin: 5px 0;
   position: relative;
-  border-bottom: 1px solid #007bff; /* Add an underline to each service item */
+  border-bottom: 1px solid lightgray; /* Add an underline to each service item */
 }
 
 .services-list li:before {
   content: "\2022";
-  color: #007bff;
+  color: lightgray;
   display: inline-block;
   width: 1em;
   margin-left: -1em;

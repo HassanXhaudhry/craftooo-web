@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import data from "./ImageData";
 import ImageComponent from "./ImageComponent";
 import { Link } from "react-router-dom";
+import "./Technologies.css";
 import TechComponent from "./TechComponent";
 const MainImagesComponent = () => {
   const [selectedImage, setSelectedImage] = useState(data[0]);

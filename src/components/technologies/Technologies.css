@@ -1,0 +1,15 @@
+.technologies-background{
+    margin: 30px auto;
+}
+.list-items>a{
+    text-decoration: none;
+    cursor: pointer !important;
+}
+.list-items>a:hover{
+    color: #005eb8;
+}
+.services-offer>h4{
+    color: #04407f;
+    text-align: center !important;
+    
+}
